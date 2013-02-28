@@ -70,7 +70,7 @@ int dijkstra()
 	return near;
 //		printf("%d\n",nearest[i]);
 }
-void out_mat()
+/*void out_mat()
 {
 	int i,j;
 	for(i=0;i<n;i++) {
@@ -78,7 +78,7 @@ void out_mat()
 		for(j=0;j<=i;j++)
 			printf("%d ",mat[i][j]);
 	}
-}
+}*/
 int main()
 {
 	while(scanf("%d",&n)!=EOF) {
